@@ -3,11 +3,8 @@
     "name": "fastwheel",
     "description": "A firefox extension that allows users to activate shortcuts using a mouse's scroll wheel.",
     "homepage_url": "https://github.com/hueyjj/fastwheel",
-    "version": "0.1",
+    "version": "0.2",
     "permissions": [
-        "activeTab",
-        "storage",
-        "webNavigation",
         "<all_urls>"
     ],
     "content_scripts": [
