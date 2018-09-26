@@ -12,9 +12,6 @@ window.addEventListener("mousedown", (e) => {
 
 window.addEventListener("mouseup", (e) => {
   if (e.button == 1) {
-    console.log(e);
-    console.log("lastPt: x=" + lastPt.x + " y=" + lastPt.y);
-    console.log("currentLoc: x=" + e.x + " y=" + e.y)
     let currPt = {
       x: e.x,
       y: e.y,
@@ -26,14 +23,12 @@ window.addEventListener("mouseup", (e) => {
       if (verticalMovement) {
         if (deltaY > 0) {
           // Wheel up
-          console.log("fastwheel up");
           window.scrollTo({
             top: 0,
             behavior: "smooth"
           })
         } else {
           // Wheel down
-          console.log("fastwheel down");
           window.scrollTo({
             top: document.body.scrollHeight,
             behavior: "smooth"
@@ -42,11 +37,9 @@ window.addEventListener("mouseup", (e) => {
       } else {
         if (deltaX > 0) {
           // Wheel right
-          console.log("fastwheel right");
           window.history.forward();
         } else {
           // Wheel left
-          console.log("fastwheel left");
           window.history.back();
         }
       }
