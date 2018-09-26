@@ -11,3 +11,5 @@ Shortcuts:
     Scroll to top (page)    Press and hold middle mouse button and release in up direction
 
     Scroll to bottom (page) Press and hold middle mouse button and release in down direction
+
+Firefox extension link: https://addons.mozilla.org/en-US/firefox/addon/fastwheel/
